@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body{
+            margin: 1rem;
+        }
+.card_container{
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      gap: 10px;
+       
+ }
+    .card-1{
+   background-color: beige;
+    width: 30vw;
+   height: 95vh;
+   border-radius: 20px;
+ text-align: center;
+  align-items: center;
+   color: rgb(227, 8, 8);
+display: flex;              
+  justify-content: center;     
+  flex-direction: column; 
+  font-size: x-large;
+ 
+   }
+   .card-2{
+ background-color: blue;
+  width: 70vw;
+   height: 95vh;
+    border-radius: 20px;
+   display: flex;              
+  justify-content: center;     
+  flex-direction: column; 
+    text-align: center;
+   font-size: x-large;
+   color: rgb(227, 8, 8);
+ } 
+ @media screen and (max-width: 576px) {
+    .card_container{
+        flex-direction: column;
+    }
+    .card-1{
+   width: 70vw;
+   height: 30vh;
+    }
+    .card-2{
+   width: 70vw;
+   height: 60vh;
+    }
+ } 
+    </style>
+</head>
+<body>
+   <div class="card_container">
+    <div class="card-1">left</div>
+    <div class="card-2">Right</div>
+    </div>
+</body>
+</html>

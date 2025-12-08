@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        body{
+            border: 1px solid aquamarine;
+            max-width: 1140px;
+           margin: 0 auto;
+        }
+        .images{
+            display: flex;
+            gap: 10px;
+        }
+        .images-container{
+         
+         width: 50%;
+       
+         
+
+        }
+        img{
+           width: 100%;
+           border-radius: 10px;
+        }
+        @media screen and (max-width:576px) {
+            .images{
+                /* flex-direction: column; */
+                flex-direction: column-reverse;
+            }
+            .images-container {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Responsive Website</h1>
+    <ol>
+        <li>view meta tag</li>
+        <li>CSS relative unit</li>
+        <li>body max width and horizontal center align</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <div class="images">
+        <div class="images-container">
+       <img height="100%" width="100%" src="images/variety-of-junk-foods-on-table.webp" alt="">
+        </div>
+        <div class="images-container">
+          <img src="images/Tiger.webp" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
