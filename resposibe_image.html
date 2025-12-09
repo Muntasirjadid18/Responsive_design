@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section{
+            margin-top: 5rem;
+            
+            
+        }
+       .flex{
+        display: flex;
+        justify-content: center;
+       margin-top: 5rem;
+       gap: 10px;
+        
+       }
+       .images{
+        width: 70%;
+       }
+       .images img{
+        width: 100%;
+        border-radius: 10px;
+       }
+     .content{
+        padding: 10px;
+     }
+     .content button{
+        background-color: rgb(60, 152, 198);
+        color: white; 
+        padding: 10px;
+        border-radius: 3px;
+        border: none;
+
+     }
+     @media screen and (max-width:576px) {
+         .flex{
+        flex-direction: column;
+
+       }
+       .images{
+       
+        margin: auto;
+       }
+     }
+       @media screen and (max-width:768px) and (min-width:577px) {
+         .flex{
+        flex-direction: column;
+
+       }
+       .images{
+      
+        margin: auto;
+       }
+     }
+      @media screen and (max-width:1024px) and (min-width:769px) {
+       .images{
+         width: 200%;
+        
+       
+       }
+        .images img{
+        height: 100%;
+       }
+
+
+    }
+      @media screen and (max-width:1239px) and (min-width:1025px) {
+       .images{
+         width: 95%;
+       
+       }
+      
+    }
+     
+      
+    </style>
+</head>
+<body>
+      <!-- card-1 -->
+       <div class="section">
+   <div class="flex">
+  
+    <div class="images"><img src="./images/photo_2025-12-09_18-04-54.jpg" alt=""></div>
+    <div class="content">
+    <h3>Post Title will be here</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum commodi provident asperiores animi odit odio alias aut! Placeat dolorem sint error nesciunt totam id inventore optio, quod dolorum sapiente maxime alias aut dignissimos. Aliquid aut animi adipisci hic accusamus non natus tempora quidem consequatur ipsa quas asperiores cum architecto similique, maxime aperiam maiores autem sapiente. Dolor esse dolore iure!</p>
+     <button>Read more</button>
+     </div>
+   </div>
+
+
+
+    <!-- card-2 -->
+    <div class="flex">
+        <div class="images"><img src="./images/photo_2025-12-09_18-04-08.jpg" alt=""></div>
+        <div class="content">
+             <h3>Post Title will be here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum commodi provident asperiores animi odit odio alias aut! Placeat dolorem sint error nesciunt totam id inventore optio, quod dolorum sapiente maxime alias aut dignissimos. Aliquid aut animi adipisci hic accusamus non natus tempora quidem consequatur ipsa quas asperiores cum architecto similique, maxime aperiam maiores autem sapiente. Dolor esse dolore iure!</p>
+            <button>Read more</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
