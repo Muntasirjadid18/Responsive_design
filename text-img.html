@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-img</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+     .flex1{
+        display: flex;
+        
+     }
+      .flex2{
+        display: flex;
+        
+     }
+     .image{
+        width: 20%;
+     }
+     .image .img1{
+            height: 48vh;
+        width: 50vw;
+     }
+      .image .img2{
+         height: 48vh;
+        width: 50vw;
+        justify-content: end;
+     }
+    .content1 h3{
+        text-align: left;
+    }
+.content1{
+  text-align:left;
+ width: 1040px;
+padding: 0 0 0 220px;
+margin-left: 180px;
+}
+.content2{
+ text-align: start;
+ width: 640px;
+ height: 300px;
+}
+
+ @media screen and (max-width:576px) {
+    .flex1{
+      flex-direction: column;
+      
+    }
+        .flex2{
+        flex-direction: column-reverse;
+        
+    }
+    .content1 h3{
+        text-align: center;
+    }
+    .content1{
+  text-align:center;
+ width: 300px;
+padding: 0 0 0 0px;
+margin-left: 0px;
+margin: auto;
+}
+
+.content2{
+ text-align: center;
+ width: 320px;
+ height: 200px;
+ margin: auto;
+}
+
+ .image{
+        width: 100%;
+       
+     }
+  .image .img1{
+           height: 50vh;
+         width: 100%;
+     }
+       .image .img2{
+         height: 50vh;
+        width: 100%;
+      
+
+ }
+}
+    </style>
+</head>
+<body>
+    <div class="flex1"> 
+    <div class="image"><img class="img1" src="/images/lake-balaton-sunset-lake-landscape-158045.jpeg" alt=""></div>
+    <div class="content1">
+        <h3>What do we use it?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, necessitatibus iure labore iste totam cupiditate ut doloribus tempore placeat incidunt eius voluptas excepturi debitis non expedita! Temporibus consectetur in dolore necessitatibus, fugit id molestiae odit tempora similique sed doloremque magnam asperiores hic. Quo sequi tempora aspernatur id suscipit corporis voluptatibus sint, culpa quis in eligendi possimus rerum magni enim ab incidunt expedita adipisci beatae est recusandae explicabo! Optio, porro. Dolor quis assumenda voluptate dicta labore veniam expedita saepe voluptatibus iure sunt accusantium, eveniet veritatis, similique enim itaque aliquam officiis atque aperiam maxime laboriosam neque. Officiis, eaque est? Placeat possimus ab odit magni sapiente reprehenderit, necessitatibus saepe aut inventore earum fugit harum tenetur sint vero obcaecati minima .</p>
+    </div>
+    </div>
+      <div class="flex2">
+     <div class="content2">
+        <h3>What do we use it?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, necessitatibus iure labore iste totam cupiditate ut doloribus tempore placeat incidunt eius voluptas excepturi debitis non expedita! Temporibus consectetur in dolore necessitatibus, fugit id molestiae odit tempora similique sed doloremque magnam asperiores hic. Quo sequi tempora aspernatur id suscipit corporis voluptatibus sint, culpa quis in eligendi possimus rerum magni enim ab incidunt expedita adipisci beatae est recusandae explicabo! Optio, porro. Dolor quis assumenda voluptate dicta labore veniam expedita saepe voluptatibus iure sunt accusantium, eveniet veritatis, similique enim itaque aliquam officiis atque aperiam maxime laboriosam neque. Officiis, eaque est? Placeat possimus ab odit magni sapiente reprehenderit, necessitatibus saepe aut inventore earum fugit harum tenetur sint vero obcaecati minima .</p>
+    </div>
+    <div class="image"><img class="img2" src="/images/free-photo-of-historic-turkish-palace-by-scenic-waterside.jpeg" alt=""></div>
+    </div>
+</body>
+</html>
