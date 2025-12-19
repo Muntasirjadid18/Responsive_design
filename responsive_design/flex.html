@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        .container-1{
+            display: flex;
+            gap: 20px;
+            color: white;
+        }
+       .box{
+        background-color: slateblue;
+        padding: 20px;
+        border-radius: 20px;
+       }
+       .box:hover{
+        background-color: rgb(75, 52, 209);
+       }
+       .container-2{
+        display: flex;
+        margin: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+       justify-content: center;
+       
+      
+       }
+       .item{
+        height: 200px;
+        width: 300px;
+        border: solid 2px tomato;
+        background-color: aqua;
+         border-radius: 20px;
+   
+         padding: 40px;
+       }
+        .item:hover{
+        background-color: rgb(215, 209, 247);
+        border: solid 2px rgb(95, 14, 14);
+       }
+       @media screen and (max-width:576px) {
+         .container{
+            flex-direction:column;
+         }
+       }
+    </style>
+</head>
+<body>
+ <h1>Responsive flex</h1>
+    <div class="container-1">
+ <div class="box">
+    <h2>First Box</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci, nemo accusantium reprehenderit libero saepe minima doloremque a maiores. Eos incidunt tempore ipsa officiis aliquam.</p>
+ </div>
+ <div class="box">
+    <h2>Second Box</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci, nemo accusantium reprehenderit libero saepe minima doloremque a maiores. Eos incidunt tempore ipsa officiis aliquam.</p>
+ </div>
+    </div>
+    <div class="container-2">
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    <div class="item">item1</div>
+    </div>
+</body>
+</html>
